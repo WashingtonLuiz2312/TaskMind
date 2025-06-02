@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Teste Objetivo Sistemas</title>
+
+        <!-- Bootstrap 5 CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" integrity="sha384-+0n0xVW2eSR5O3z4z6a">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header class="modern-header py-3">
+            <nav class="container d-flex align-items-center justify-content-between flex-wrap">
+                <div class="d-flex align-items-center gap-3">
+                    <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>    
+                </div>
+
+                <div class="d-flex align-items-center flex-grow-1 justify-content-center gap-4">
+                    <a class="nav-link" href="#about">Sobre</a>
+                    <a class="nav-link dropdown-toggle" href="#" id="menuDropdown" role="button" data-bs-toggle="dropdown">Menu</a>
+
+                    <a href="#" class="navbar-brand px-4">
+                        <div class="logo-icon">
+                            <i class="bi bi-triangle"></i>
+                        </div>
+                    </a>
+
+                    <a class="nav-link" href="#contato">Contato</a>
+                    <a class="nav-link" href="#planos">Planos</a>
+                </div>
+
+                <div>
+                    <a href="#contato" class="btn btn-outline-primary">Fale Conosco</a>
+                </div>
+            </nav>          
+        </header>
+        <!-- CORPO DO SITE -->
+        <section class="hero-product py-5">
+            <div class="container">
+                <div class="row align-items-center min-vh-100">
+                    <!-- APRESENTAÇÃO DO PRODUTO -->   
+                    <div class="product-showcase">
+                        <div class="showcase-container">
+                            <div class="product-image floating">
+                                <div class="product-placeholder">
+                                    <img src="taskmind.png" width="400">
+                                </div>
+                            </div>
+
+                            <div class="product-info">
+                                <span class="product-badge">Lançamento</span>
+
+                                <div class="rating">
+                                    <div class="stars">★★★★★</div>
+                                </div>
+
+                                <h1 class="product-title">TASKMIND</h1>
+
+                                <p class="product-description">
+                                    uma plataforma digital desenvolvida para ajudar você a organizar sua rotina de forma leve e equilibrada, com foco no bem-estar e na saúde mental. Com recursos inteligentes e interface intuitiva, o TaskMind transforma o gerenciamento de tarefas em uma experiência mais consciente e tranquila
+                                </p>
+
+                                <ul class="product-features">
+                                    <li>Implementação Imediata</li>
+                                    <li>Planejamento Semanal</li>
+                                    <li>Check-in Emocional</li>
+                                    <li>Relatório Semanal</li>
+                                    <li>Coaching Digital</li>
+                                </ul>
+
+                                <div class="product-cta d-flex flex-wrap gap-3 mb-4">
+                                    <a href="#planos" class="btn btn-primary btn-lg px-4 py-3">
+                                        <i class="bi bi-cart-plus me-2"></i> Ver Planos
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Funcionalidades -->
+        <section class="product-shocase py-5">
+            <div class="container">   
+                <!-- ESTATISTICA -->
+                <div class="product-stats mt-5">
+                    <div class="row text-center">
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="stat-item">
+                                <div class="stat-number">1000+</div>
+                                <div class="stat-label">Clientes Satisfeitos</div>    
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="stat-item">
+                                <div class="stat-number">500+</div>
+                                <div class="stat-label">Projetos Concluídos</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="stat-item">
+                                <div class="stat-number">99%</div>
+                                <div class="stat-label">Satisfação do Cliente</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="stat-item">
+                                <div class="stat-number">24/7</div>
+                                <div class="stat-label">Suporte Disponível</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Planos -->
+        <section id="planos">
+            <div class="container pricing-container">
+                <div class="pricing-header">
+                    <h2 class="fw-bold">Nossos Planos</h2>
+                    <p class="text-muted">Escolha o plano ideal para você</p>
+                </div>
+
+                <div class="pricing-grid">
+                    <!-- Plano Básico -->
+                    <div class="pricing-card">
+                        <div class="plan-header">
+                            <h3 class="plan-name">Plano Starter</h3>
+                            <div class="plan-price">Grátis</div>
+                            <div class="plan-period">Mensal</div>
+                        </div>
+                        
+                        <div class="plan-features">
+                            <ul>
+                                <li><i class="bi bi-check-lg"></i>Criação de até 5 tarefas por semana</li>
+                                <li><i class="bi bi-check-lg"></i>Alertas simples e lembretes diários</li>
+                                <li><i class="bi bi-check-lg"></i>Frases motivacionais diárias</li>
+                                <li><i class="bi bi-check-lg"></i>Acesso ao blog com dicas de bem-estar</li>
+                                <li><i class="bi bi-check-lg"></i>Relatório semanal simplificado</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="plan-button">
+                            <a href="#" class="btn btn-outline-primary w-100">Assinar</a>
+                        </div>
+                    </div>
+
+                    <!-- Plano Intermediário (Destacado) -->
+                    <div class="pricing-card featured">
+                        <div class="plan-header">
+                            <h3 class="plan-name">Plano Equilibrium</h3>
+                            <div class="plan-price">R$ 14,90</div>
+                            <div class="plan-period">Mensal</div>
+                        </div>
+                        
+                        <div class="plan-features">
+                            <ul>
+                                <li><i class="bi bi-check-lg"></i>Tarefas ilimitadas com subetapas e etiquetas personalizadas</li>
+                                <li><i class="bi bi-check-lg"></i>Planejamento semanal com sugestão automática de horários saudáveis</li>
+                                <li><i class="bi bi-check-lg"></i>Check-in emocional diário com gráfico de humor</li>
+                                <li><i class="bi bi-check-lg"></i>Meditações guiadas (até 3 por dia)</li>
+                                <li><i class="bi bi-check-lg"></i>Análises semanais de bem-estar com recomendações personalizadas</li>
+                                <li><i class="bi bi-check-lg"></i>Suporte por chat com especialistas (resposta em até 48h)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="plan-button">
+                            <a href="#" class="btn btn-primary w-100">Assinar</a>
+                        </div>
+                    </div>
+
+                    <!-- Plano Avançado -->
+                    <div class="pricing-card">
+                        <div class="plan-header">
+                            <h3 class="plan-name">Plano Zen Master</h3>
+                            <div class="plan-price">R$ 24,90</div>
+                            <div class="plan-period">Mensal</div>
+                        </div>
+                        
+                        <div class="plan-features">
+                            <ul>
+                                <li><i class="bi bi-check-lg"></i>Coaching digital com IA: sugestões de organização, descanso e autocuidado</li>
+                                <li><i class="bi bi-check-lg"></i>Sessões de autoavaliação quinzenal com insights de equilíbrio de vida</li>
+                                <li><i class="bi bi-check-lg"></i>Acesso completo a biblioteca de meditações e exercícios de respiração</li>
+                                <li><i class="bi bi-check-lg"></i>Integração com Google Calendar, Apple Health e apps de sono</li>
+                                <li><i class="bi bi-check-lg"></i>Recurso “Pause Day”: planejamento de um dia de autocuidado com atividades sugeridas</li>
+                                <li><i class="bi bi-check-lg"></i>Acesso antecipado a novas funcionalidades</li>
+                                <li><i class="bi bi-check-lg"></i>Suporte premium com resposta em até 12h</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="plan-button">
+                            <a href="#" class="btn btn-outline-primary w-100">Assinar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DEPOIMENTOS -->
+        <section class="bg-light py-5">
+            <div class="container">
+                <div class="testimonials-header">
+                    <h3 class="fw-bold">Avaliações dos Nossos Clientes</h3>
+                    <p class="lead">Junte-se a milhares de clientes satisfeitos</p>
+                </div>
+
+                <div class="row g-4 mb-5">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="testimonial-card-modern">
+                            <div class="customer-info">
+                                <img src="https://images.pexels.com/photos/32288634/pexels-photo-32288634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Ana Silva" class="customer-avatar">
+                                <div class="customer-details">
+                                    <h5>Ana Silva</h5>
+                                    <p class="text-muted">Empresária</p>
+                                </div>
+                            </div>
+                            <div class="rating-stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                            <p class="testimonial-text">"O produto superou minhas expectativas! A qualidade é excelente e o suporte é muito atencioso."</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="testimonial-card-modern">
+                            <div class="customer-info">
+                                <img src="https://images.pexels.com/photos/32294414/pexels-photo-32294414.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="João Pereira" class="customer-avatar">
+                                <div class="customer-details">
+                                    <h5>João Pereira</h5>
+                                    <p class="text-muted">Tech Leader DevOPS</p>
+                                </div>
+                            </div>
+                            <div class="rating-stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                            <p class="testimonial-text">"A interface é muito intuitiva e fácil de usar. Recomendo para quem busca eficiência."</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="testimonial-card-modern">
+                            <div class="customer-info">
+                                <img src="https://images.pexels.com/photos/32280529/pexels-photo-32280529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Maria Oliveira" class="customer-avatar">
+                                <div class="customer-details">
+                                    <h5>Maria Oliveira</h5>
+                                    <p class="text-muted">Supervisora Marketing</p>
+                                </div>
+                            </div>
+                            <div class="rating-stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                            <p class="testimonial-text">"Adorei a personalização! O produto se adapta perfeitamente às minhas necessidades."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="#" class="btn btn-primary">Deixe seu depoimento</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CHAMADA PARA AÇÃO -->
+        <section class="text-center py-5 bg-primary text-white">
+            <div class="container">
+                <h2 class="mb-3">Pronto para Começar?</h2>
+                <p class="lead">Experimente nosso produto hoje mesmo!</p>
+                <a href="#contato" class="btn btn-light">Comece Agora</a>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="modern-footer" id="contato">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="row g-4">
+                        <!-- SOBRE A EMPRESA -->
+                         <div class="col-lg-3 col-md-6">
+                            <div class="footer-section">
+                                <h4 class="footer-brand">Sobre Nós</h4>
+                                <p class="footer-description">
+                                    Somos uma empresa dedicada a fornecer soluções inovadoras e de alta qualidade para nossos clientes. Nossa missão é transformar desafios em oportunidades através da tecnologia.
+                                </p>
+                                <div class="social-links">
+                                    <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+                                    <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+                                    <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+                                    <a href="#" class="social-link"><i class="bi bi-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PRODUTOS -->
+                        <div class="col-lg-2 col-md-6">
+                            <div class="footer-section">
+                                <h5 class="footer-title">Produtos</h5>
+                                <ul class="footer-links">
+                                    <li><a href="#">Sistemas ERP</a></li>
+                                    <li><a href="#">CRM Avançado</a></li>
+                                    <li><a href="#">BI Analytics</a></li>
+                                    <li><a href="#">Automação</a></li>
+                                    <li><a href="#">Integrações</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- SUPORTE -->
+                        <div class="col-lg-2 col-md-6">
+                            <div class="footer-section">
+                                <h5 class="footer-title">Suporte</h5>
+                                <ul class="footer-links">
+                                    <li><a href="#">Central de Ajuda</a></li>
+                                    <li><a href="#">Documentação</a></li>
+                                    <li><a href="#">Fale Conosco</a></li>
+                                    <li><a href="#">Status do Sistema</a></li>
+                                    <li><a href="#">Política de Privacidade</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- RECURSOS -->
+                        <div class="col-lg-2 col-md-6">
+                            <div class="footer-section">
+                                <h5 class="footer-title">Recursos</h5>
+                                <ul class="footer-links">
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Webinars</a></li>
+                                    <li><a href="#">Casos de Sucesso</a></li>
+                                    <li><a href="#">Whitepapers</a></li>
+                                    <li><a href="#">Eventos</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- CONTATO -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-section">
+                                <h5 class="footer-title">Contato</h5>
+                                <div class="contact-info">
+                                    <div class="contact-item">
+                                        <i class="bi bi-geo-alt-fill"></i>
+                                        <span>Rua Exemplo, 123 - São Paulo, SP</span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <i class="bi bi-telephone-fill"></i>
+                                        <span>(00) 0000-0000</span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <i class="bi bi-envelope-fill"></i>
+                                        <span>contato@objetivosistemas.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+                <!-- FOOTER BOTÃO -->
+                <div class="footer-bottom">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <p class="copyright">© 2025 Objetivo Sistemas, Inc. Todos os direitos reservados.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="footer-legal">
+                                <a href="#">Política de Privacidade</a>
+                                <a href="#">Termos de Serviço</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-+0n0xVW2eSR5O3z4z6a"></script>
+                
+            
+    </body>
+</html>
